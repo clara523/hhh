@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Taschenrechner</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input[type="number"] {
+      width: 100px;
+      padding: 5px;
+      margin: 10px;
+    }
+    select, button {
+      padding: 5px 10px;
+      margin: 10px;
+    }
+    #ergebnis {
+      font-weight: bold;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Taschenrechner</h1>
+
+  <input type="number" id="zahl1" placeholder="Zahl 1">
+  <select id="operator">
+    <option value="+">+</option>
+    <option value="-">−</option>
+    <option value="*">×</option>
+    <option value="/">÷</option>
+  </select>
+  <input type="number" id="zahl2" placeholder="Zahl 2…
